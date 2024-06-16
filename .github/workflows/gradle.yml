@@ -1,5 +1,6 @@
 name: Build RC
 on:
+  workflow_dispatch:
   push:
     branches:
       - '**'# matches every branch
