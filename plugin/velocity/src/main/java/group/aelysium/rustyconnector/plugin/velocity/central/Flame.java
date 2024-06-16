@@ -253,8 +253,6 @@ class Initialize {
                         .build(),
                 CommandRusty.create(dependencies)
         );
-
-        commandManager.unregister("server");
     }
 
     public String version() {
